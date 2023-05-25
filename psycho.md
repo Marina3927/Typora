@@ -435,7 +435,9 @@ How could utilitarianism (do the greatest good for the greatest number of people
 
 ### Important Ethical Principles---5
 
-##### Principle 1: Beneficence and Nonmaleficence (Belmont)
+(Belmont Principle)
+
+##### Principle 1: Beneficence and Nonmaleficence 
 
 **cost-benefit analysis** 
 
@@ -607,6 +609,81 @@ research question, research design, findings/answers, share/publish findings
 **true experiments**
 
 designs in which the researcher manipulates all of the independent variables and randomly assigns participants to groups.
+
+**quasi-independent variables** 
+
+variables treated as if they were independent variables in the experimental design 
+
+even though the researchers did not manipulate them. 
+
+**quasi-experimental designs** 
+
+designs in which the researcher cannot manipulate the independent variable or use random assignment
+
+### Measuring Variables
+
+For psychologists, the ability to measure psychological concepts such as love, depression, stress, anxiety, loneliness, happiness, body image, and self-esteem means that we can study strategies for improving peoples’ lives in these areas.
+
+self-report and behavioral
+
+#### Self-Report
+
+any measurement technique that directly asks the participant how they think or feel. 
+
+##### Advantages
+
+quicker and easier
+
+Due to the privileged position that your “self” has regarding your thoughts and feelings
+
+##### Disadvantages
+
+blind spots
+
+(They would likely inflate their responses because they would have forgotten, discounted, or rationalized several instances where they were less than kind.)
+
+**social desirability**
+
+the tendency for respondents to give answers that make them look good. 
+
+**demand characteristic**
+
+a cue that potentially makes participants aware of what the experimenter expects (Don't succumb to demand characteristics!)
+
+mix the topic we are interested in with a number of other filler items 
+
+**retrospective bias** 
+
+when participants view or interpret past events in an inaccurate way. 
+
+#### Behavioral Measures 
+
+a measure of participants’ actions in a research design
+
+**behavioral trace** 
+
+a behavioral measure that relies on evidence left behind by a participant who is no longer present. 
+
+
+
+### L5. 0525
+
+Keeping Public Science Strong
+
+- calling out political interference
+- protecting scientists from **reprisal** and harassment
+- surveying federal scientists (adherence to agency policies, scientific integrity abuses)
+- 
+
+
+
+### Informed consent form
+
+purpose of the research, procedures, Time Duration of procedures and study, participant election, Discomfort and Risk, possible benefits, statement of confidentiality
+
+RLM: Anonymous VS. confidential (gather IP data, when&how to destroy ) 
+
+How do **politics and funding sources impact** the scientific integrity of research studies? What are some potential ways in which bias, censorship, limited funding, and influence on scientific institutions could compromise scientific integrity? How can researchers and scientific institutions prioritize ethical practices and transparency to mitigate these potential impacts? i.e. interest&manipulate group in school
 
 ## CHAPTER 7 Correlational Research: Is Going Greek a Great Idea
 

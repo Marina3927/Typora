@@ -270,7 +270,13 @@ inertia_$FOR_i$ = inertia_$FOR_1+v_constant $
 
 #### infinite inertiaFOR or no inertialFOR
 
+### L6. 0525
 
+Third law: action-reaction pair
+
+a slender **uniform** rod = linear density of mass = $\rho = constant$
+
+Find the **tension** function of rope/chain...
 
 ### c5 Applying Newton's Laws
 
@@ -281,6 +287,36 @@ The kind of friction that acts when a body slides over a surface is called a **k
 For small objects moving at very low speeds, $f=kv$
 
 For larger objects moving through air at the speed of a tossed tennis ball or faster, $f=DV^2$. (air / simple drag)
+
+### c6 
+
+#### Work
+
+W=work, w=weight
+
+Kinetic energy $K=\frac 1 2 m v^2$
+
+Work-energy theroem
+
+#### Hooke's law--
+
+force constant k
+
+$W=\int_{x_1}^{x_2}F_xdx=\frac 1 2kx_2^2-\frac 1 2kx_1^2$
+
+#### Motion Along a Curve
+
+$W=\int_{P_1}^{P_2}F_{parallel}dl$
+
+#### Power
+
+watt
+
+1hp (horsepower)=746W
+
+$P=Fv$
+
+
 
 
 

@@ -1,11 +1,28 @@
+**0525**
+
+- cmd+m: minimize window
+
+- cmd+tab+arrow+release cmd: Minimized windows back
+
+- **Command + Option and click anywhere on the desktop**: minimize all open windows & access the desktop.
+- **Command + Option + H + M**: minimize all apps on Mac and get to the desktop.
+- **Command + Option + M**: minimize all windows on the current application.
+- **Command + Option + H**: minimize all windows except for the active ones on the top.
+
 **0524**
 
 Sublime-find-ctags
 
-Delete remote directory
-
 ```zsh
+# Delete remote directory
 git rm -r path/to/directory
+
+#you no longer have a local copy of that branch, but it exists in origin.
+git branch -d old_branch   
+
+#If you want to delete the remote branch as well, use
+git push --delete origin old_branch
+
 ```
 
 
