@@ -16,6 +16,12 @@ About centipetral acceleration:
 2. It has magnitude of either $v^2/R$ or $ω^2R$.
 3. It is directed radially inward.
 
+Zero acceleration <--> net force = 0
+
+In the absence of gravity, the tension in a stationary rope may be taken to be constant.
+
+magnitude has no sign.
+
 ### hw1
 
 The significant number of 1000 is 1.
@@ -268,6 +274,8 @@ first law ensures ***Inertia FOR***, then apply second law
 
 inertia_$FOR_i$ = inertia_$FOR_1+v_constant $
 
+(Assuming that the earth provides an inertial frame of reference, an object moving at a constant velocity relative to the earth would also provide an inertial frame of reference.)
+
 #### infinite inertiaFOR or no inertialFOR
 
 ### L6. 0525
@@ -277,6 +285,10 @@ Third law: action-reaction pair
 a slender **uniform** rod = linear density of mass = $\rho = constant$
 
 Find the **tension** function of rope/chain...
+
+coefficient of Static >= kinetic friction
+
+Teflon on teflon (the layer on frying pan)
 
 ### c5 Applying Newton's Laws
 
@@ -316,9 +328,51 @@ watt
 
 $P=Fv$
 
+### L7. 0530
+
+***Fall with linear air drag***
+
+fluid / air resistance $\bar{F}_{drag}=-k\bar{v}$
+
+coefficient-k is associated with environment.
+$$
+v_y(t)=\frac{mg}k (1-e^{-\frac kmt})\\
+a_y(t)=ge^{-\frac kmt}\\
+y(t)=\frac {mg}k(t+\frac mke^{-\frac kmt}-\frac mk)
+$$
+$\ell$
+
+quadratic drag
+
+### L8. 0602
+
+Driven oscilliation
+
+$\frac{\omega_{dr}}{\omega_0}=1$ means: driving frequency=natural angular frequency
+
+Mechanical resonance
 
 
 
+### c7 Potential Energy and Energy Conservation
+
+gravitational potential energy $U_{grav}=mgv$
+
+total mechanical energy of the system $E=\Delta K +\Delta U_{grav}$
+
+elastic potential energy $U_{el}=\frac12 kx^2\\\Delta U_{el21}= W_{12}$
+
+$W_{grab}+W_{el}+W_{other}=K_2-K_1$
+
+conservative forces
+
+nonconservative forces: air/fluid resistance, cause E to be lost or dissipated
+
+#### gradient
+
+energy diagram --
+
+stable equilibrium (minimum in a potnetial-energy curve)
 
 ### c14
 
@@ -366,6 +420,54 @@ if you use an alpha value of *p* < 0.05 for statistical significance, then your 
 
 #### Matlab
 
+### e3 -- Simple Harmonic Motion: Oscillations in Mechanical Systems
+
+- State the Hooke’s law. When is it applicable?
+
+F = -kx, where F is the force applied, x is the displacement from the equilibrium position, and k is the spring constant.
+
+Hooke's law is applicable to any elastic material. It's only valid within the elastic limit of the material.
+
+- Give an example of a harmonic oscillator other than the mass–spring system.
+
+Pendulum $d^2θ/dt^2 + (g/L)sin(θ) = 0$ , a simple harmonic wave on a string, the motion of a charged particle in a magnetic field, and the motion of a simple harmonic oscillator in quantum mechanics.
+
+- Does the period of oscillations depend on initial conditions? No.
+
+- Is motion of a simple pendulum an example of simple harmonic motion? Explain. Yes.
+
+- Sketch the graphs *x* = *x*(*t*), *vx* = *vx*(*t*), and *ax* = *ax*(*t*) for a particle moving in simple harmonic motion.
+
+$$
+m d^2x/dt^2 + kx = 0\\
+x(t) = A cos(ωt + φ)\\
+\text{where A is the amplitude of the oscillation} \\ \text{ω is the angular frequency of the oscillation}\\ \text{and φ is the phase angle.}
+$$
+
+
+
+Sketch the graphs *K* = *K*(*t*) ***kinetic energy*** and *U* = *U*(*t*) ***potential energy*** for a particle moving in simple harmonic motion.
+
+Mass-spring system
+$$
+K = (1/2)mv^2 = (1/2)mω^2A^2sin^2(ωt + φ)\\
+U = (1/2)kx^2 = (1/2)kA^2cos^2(ωt + φ)
+$$
+
+- Will the oscillation period change when the inclination angle of the air track is changed? Explain. No
+
+The oscillation period depends solely on the physical properties of the system, such as the mass, spring constant, and length of the pendulum. 
+
+It may affect the amplitude and displacement of the oscillation, as well as the forces acting on the system. It is important to note that the motion of the system may no longer be strictly one-dimensional if the air track is inclined, which may require a more complex analysis of the system.
+
+- How to check whether the Jolly balance is vertical?
+
+Jolly balance, device, now largely obsolete, for determining the specific gravity (relative density) of solids and liquids.
+
+Mass: how much the spring lengthens when the object is resting in the upper pan in air (w![w](https://wikimedia.org/api/rest_v1/media/math/render/svg/88b1e0c8e1be5ebe69d18a8010676fa42d7961e6)), and then when the object is moved to the lower pan and immersed in water (w′).
+
+$\frac w {(w-w')}$
+
 ### e4 -- 3 methods of measuring the speed of sound in air
 
 1. What is a longitudinal/transverse wave? Are sound waves longitudinal or transverse?
@@ -404,3 +506,22 @@ Lissajous figures are patterns that are created by plotting the motion of two pe
 
 The 'CURSOR' function on an oscilloscope is used to measure the values of different points on a waveform. It allows the user to place two cursors on the screen and measure the time and voltage difference between them. This can be useful for measuring the frequency, period, amplitude, and phase of a waveform.
 
+### e5
+
+1. What is the effect of damping on the amplitude and the frequency of non-driven oscillations?
+
+Damping causes the amplitude of an oscillation to decrease over time. The frequency of a damped oscillator is less than the natural frequency of the system. The natural frequency is the frequency at which an object vibrates when it is disturbed. The resonance frequency is the frequency at which an object vibrates with maximum amplitude when it is disturbed. The resonance frequency is greater than the natural frequency of the system.
+
+3. Sketch the time dependence of the displacement from the equilibrium position for a harmonic oscillator in the (a) underdamped, (b) overdamped regime.
+
+4. What is the phase difference between the displacement and a sinusoidal driving force if (a) the system is at resonance, (b) the frequency of the driving force is much larger than the natural frequency of the system.
+
+   resonance occurs when an external force matches an object’s natural frequency, causing it to vibrate with maximum amplitude.
+
+5. Is there any relation between the resonance frequency and the natural frequency? Explain briefly.
+
+6. Give an example of an application of mechanical resonance.
+
+7. Sketch the curves *θ*st vs. *ω* for steady-state driven oscillations with two different damping coefficients *β*1 *< β*2. Label the curves with *β*1 and *β*2 accordingly.
+
+8. Sketch the curves *ϕ* vs. *ω* for steady-state driven oscillations with two difffferent damping coeffiffifficients *β*1 *< β*2. Label the curves with *β*1 and *β*2 accordingly.

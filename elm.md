@@ -1,24 +1,90 @@
 # elm
 
-**0525**
+#### MakeFile
 
-#### polymorphism 
+```zsh
+# all:
+	mkdir -p build
+	elm make src/Main.elm --output=build/main.js
+	cp -f public/index.html .
+	cp -f public/style.css build/style.css
+	cp -f public/*.js build/
+# format:
+	elm-format src/ --yes
+# clean:
+	rm -rf build/
+```
 
-the ability (in programming) to present the same interface for differing underlying forms (data types).
+**0530**
 
-With polymorphism, each of these classes will have different underlying data. A point shape needs only two co-ordinates (assuming it's in a two-dimensional space of course). A circle needs a center and radius. A square or rectangle needs two co-ordinates for the top left and bottom right corners and (possibly) a rotation. An irregular polygon needs a series of lines.
+```zsh
+pip3 install -i https://pypi.python.org/simple -U "elm-messenger>=0.2.4"
+elm-format /src
+```
 
-By making the class responsible for its code as well as its data, you can achieve polymorphism. In this example, every class would have its own `Draw()` function and the client code could simply do: shape.Draw() to get the correct behavior for any shape.
+Scene
 
-This is in contrast to the old way of doing things in which the code was separate from the data, and you would have had functions such as `drawSquare()` and `drawCircle()`.
+layer
+
+component
 
 
 
-Computer.keyboard.down
 
-else
 
-else if
+```elm
+1::[2,3,4]
+(::) 1 [2,3,4]
+-- 2 ways to initialize a model
+{ x = 0, y = 0, time = 0, color = Color 5 5 5 }
+```
+
+**0529**
+
+*API（Application Programming Interface,[应用程序](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)编程接口）是一些预先定义的[函数](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E5%87%BD%E6%95%B0)，目的是提供[应用程序](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)与开发人员基于某[软件](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E8%BD%AF%E4%BB%B6)或硬件得以访问一组[例程](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E4%BE%8B%E7%A8%8B)的能力，而又无需访问源码，或理解内部工作[机制](https://link.zhihu.com/?target=http%3A//baike.baidu.com/item/%E6%9C%BA%E5%88%B6)的细节*
+
+修改函数，上位函数随之变化
+
+```elm
+-- f1 (f2 para)
+-- para
+-- |> f2
+-- |> f1
+List.take
+List.drop
+-- take/drop the first n members of a list
+List.tail
+-- extract the rest of the list
+List.concatMap
+-- Map a given function onto a list and flatten the resulting lists.
+
+-- the location of pipe is appended
+```
+
+**0528**
+
+```elm
+type Msg
+    = GotText (Result Http.Error String)
+fetchText : Cmd Msg
+fetchText =
+	Http.send GotText <| Http.getString "https://example.com/text"
+
+```
+
+
+
+**0527**
+
+- `Renderable` is a type alias for a function that takes a `Settings` record and returns a list of shapes.
+- `Settings` is a record that contains information about how to render the shapes.
+- `group` is a function that takes a list of shapes and returns a single shape that is the group of all the shapes.
+- `rect` is a function that takes two integers for width and height, and returns a shape representing a rectangle.
+- `fill` is a function that takes a color and a shape, and returns the shape filled with the color.
+- `shapes` is a module that contains functions for creating various shapes.
+- `subscriptions` are a way that an Elm application can receive external inputs like keyboard events, timer events and WebSocket events, output by a JavaScript library
+
+[`Html.Msg` is used for messages that are sent from the view layer to the update function, while `Msg` ... sent from the update function to the view layer](https://stackoverflow.com/questions/31349125/what-is-the-difference-between-django-html-message-and-message-in-send-mail)[1](https://stackoverflow.com/questions/31349125/what-is-the-difference-between-django-html-message-and-message-in-send-mail)
 
 ***Writing&Using Functions***
 
@@ -46,8 +112,6 @@ someFunction param =
 	in
 		-- expression here
 ```
-
-
 
 ***More On Functions***
 
@@ -141,9 +205,113 @@ Expressive, restricted, generalized
 List.map : map -> List -> List
 ```
 
+*example*
+
+```elm
+> type Action = AddPlayer | Score
+> action = AddPlayer
+AddPlayer : Repl.Action
+> type Action = AddPlayer String | Score Int Int
+> AddPlayer
+«function> : String -> Repl.Action
+> Score
+«function> : Int -> Int -> Repl. Action
+> action = AddPlayer "James"
+AddPlayer "James" : Repl. Action
+> msg = AddPlayer "James"
+AddPlayer "James" : Repl. Action
+> case msg of \
+AddPlayer name -> "Add player " ++ name \
+Score id points -> "Player id " ++ (toString id) ++ " scored " ++ (toString points)
+
+> first = List.head []
+Nothing: Maybe.Maybe a
+> case first of \
+Just val -> val
+Nothing -> "Empty"
+"Empty" : String
+> import Date
+someDate = Date.fromString "01/01/1974"
+Ok {} : Result. Result String Date.Date
+> case someDate of \
+Ok val -> "It was a legit date" \
+Err err -> err
+"It was a legit date" : String
+> someDate = Date.fromString "Not a Date"
+Err "unable to parse 'Not a Date' as a date" : Result.Result String Date. Date
+> first = List. head []
+Nothing: Maybe.Maybe a
+Maybe.withDefault "Some Default, because first is Nothing!" first
+"Some Default, because first is Nothing!" : String
+```
+
+#### Simple app
+
+##### Model
+
+can be a String, or a record:
+
+```elm
+type alias Model =
+    { meal : List String
+    , date : Date
+    }
+```
+
+##### Update
+
+Input Msg and Model, return Model
+
+##### View
+
+pass the current model and return html (which can generate text)
+
+Functions like div, p, hr, pre, block quote, corresponds to tags in html
+
+```elm
+tagName
+		: List (Attribute msg)
+		--id, class...
+		-> List (Html msg)
+		--text, div, p
+```
+
+​           
+
+**0526**
+
+```zsh
+sudo npm --force i -g elm elm-format elm-live
+```
 
 
 
+**0525**
+
+#### polymorphism 
+
+the ability (in programming) to present the same interface for differing underlying forms (data types).
+
+With polymorphism, each of these classes will have different underlying data. A point shape needs only two co-ordinates (assuming it's in a two-dimensional space of course). A circle needs a center and radius. A square or rectangle needs two co-ordinates for the top left and bottom right corners and (possibly) a rotation. An irregular polygon needs a series of lines.
+
+By making the class responsible for its code as well as its data, you can achieve polymorphism. In this example, every class would have its own `Draw()` function and the client code could simply do: shape.Draw() to get the correct behavior for any shape.
+
+This is in contrast to the old way of doing things in which the code was separate from the data, and you would have had functions such as `drawSquare()` and `drawCircle()`.
+
+```elm
+Computer.keyboard.down
+else | else if
+```
+
+#### (stop-motion video) Creative Title, Pitch Diagram, Instructional Booklet, Cohesive Design
+
+ppt should be created in latex with vector graphics
+
+pitch diagram: High Concept | Experience | Assets | Game Play | Story | Technical Assets | Marketing
+
+experience driven name | high concept driven name
+
+specialty of breaking bricks: Color scheme | Brick shape | Paddle size | Paddle speed | ...
 
 **0522**
 

@@ -1,3 +1,15 @@
+**0529**
+
+```zsh
+// Disable gatekeeper
+sudo spctl --master-disable
+unrar x <filename>
+```
+
+**0526**
+
+press f12 to open console in chrome
+
 **0525**
 
 - cmd+m: minimize window

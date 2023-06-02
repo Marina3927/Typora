@@ -612,9 +612,7 @@ designs in which the researcher manipulates all of the independent variables and
 
 **quasi-independent variables** 
 
-variables treated as if they were independent variables in the experimental design 
-
-even though the researchers did not manipulate them. 
+variables treated as if they were independent variables in the experimental design even though the researchers did not manipulate them. 
 
 **quasi-experimental designs** 
 
@@ -628,7 +626,7 @@ self-report and behavioral
 
 #### Self-Report
 
-any measurement technique that directly asks the participant how they think or feel. 
+any measurement technique that directly asks the participant how they think or feel. e.g. human behavior, emotion, and thought 
 
 ##### Advantages
 
@@ -664,6 +662,142 @@ a measure of participants’ actions in a research design
 
 a behavioral measure that relies on evidence left behind by a participant who is no longer present. 
 
+#### Determining Which Measure Is Best
+
+utilize behavioral measures that are less prone to social desirability concerns (behavioral traces/choices)
+
+### Types of Meansurement Error
+
+their scores will represent their true anxiety level as well as extraneous 无关的 factors
+
+**raw score** 
+
+the actual score, comprised of a true score and error. 
+
+**true score** 
+
+what the score would be if the test were a perfect measure of the attribute being tested and were uninfluenced by any extraneous factors. 
+
+**error** 
+
+extraneous influences that cause the raw score to deviate from the true score. 
+
+#### Random Error
+
+variation from the measure’s true score due to unsystematic or chance factors.
+
+use Statistics
+
+#### Bias
+
+error that *consistently* pushes scores in a given direction; also known as systematic error. 
+
+choose data collection strategies that minimize random error and prevent the introduction of bias
+
+### Keys to Effectice Measurement
+
+#### Setting the Stage 
+
+incorporate **standardization**
+
+keeping the experimental situation the same for everyone and as free from variation as possible.
+
+or have a large sample and take multiple measurements
+
+#### Building the Better Measurement
+
+**observer or scorer bias** 
+
+misinterpreting an observation based on the researcher’s existing beliefs, previous experiences, or expectations. 
+
+Personal definitions
+
+many self-report measures use 5 to 9 response options
+
+**sensitivity** 
+
+the range of data a researcher can gather from a particular instrument
+
+### Reliability and Validity of Measures 
+
+**reliability** 
+
+the stability or consistency of a measure.
+
+**validity** 
+
+the degree to which a tool measures what it claims to measure
+
+### Recruiting Research  Participants 
+
+ In either case, the overall goal is to research a relatively small set of people and apply what you learn about them to a larger group.
+
+#### Sampling the Population
+
+**population** 
+
+the entire group of interest in a research study from which the researcher draws the sample
+
+**sample** 
+
+a subset of the population from which the researcher collects data. 
+
+**sampling plan** 
+
+the explicit strategy used for recruiting participants from the population. 
+
+**representative sample**
+
+a sample with specific features that characterize the population of interest. 
+
+##### Types of Sampling -- probability/non-
+
+**probability sampling**
+
+a sampling approach in which everyone in a given population has an equal chance of selection for participation. 
+
+**simple random sampling** 
+
+a probability sampling method in which a subset of individuals are randomly selected from population members. 
+
+**stratified random sampling** 
+
+includes dividing the population into strata or subpopulations and using simple random sampling to select participants from each strata in proportion to the population at large. 
+
+**cluster random sampling** 
+
+dividing the total population into groups (or clusters), then using simple random sampling to select which clusters participate; all observations in a selected cluster are included in the sample. 
+
+**non-probability sampling** 
+
+everyone in the population does not have an equal chance of being sampled, therefore creating a bias in the sample
+
+**convenience sampling** 
+
+nonrandom selections of participants who are readily available to the researcher to serve as the sample. 
+
+**quota sampling**
+
+freely choosing any participant as long as they help meet predetermined targets for the sample’s characteristics. 
+
+**purposive sampling** 
+
+the researcher chooses the sample based on who they think would be appropriate or qualified for the study; used when a limited number of people have expertise in the area under investigation. 
+
+**snowball sampling** 
+
+existing study participants recruit future participants from among their acquaintances. 
+
+#### Sampling Issues
+
+maximize the generalizability of your conclusions
+
+##### Nonresponse Bias
+
+a potential systematic difference between those who refused to participate in a study and those who participated. 
+
+##### The Volunteer Subject Problem 
+
 
 
 ### L5. 0525
@@ -673,9 +807,40 @@ Keeping Public Science Strong
 - calling out political interference
 - protecting scientists from **reprisal** and harassment
 - surveying federal scientists (adherence to agency policies, scientific integrity abuses)
-- 
 
+### L6. 0530
 
+##### how study abroad influences students
+
+True experiement: randomly assigned to 2 groups -> pre-test -> IV (treatment) -> DV (academic achievement)
+
+2 groups
+
+pre-test -- purpose in life (3 scales): gratitude, flow, (comparison) outflow
+
+intervention
+
+non-manipulated: Age, Environment, Personality trait
+
+Association (including Causal-effect) -> non-experiment
+
+### L7. 0601
+
+Demographics
+
+proportion of gift cards to sample size
+
+Observed behaviors
+
+feelings
+
+perception
+
+Expectation
+
+yearning
+
+Self
 
 ### Informed consent form
 
@@ -707,23 +872,31 @@ hedonic享乐主义的, endiomoinc
 
 ## Research
 
-https://www.apa.org/pubs/books/4318159
+Flow, wellbeing, video game
 
-Our representations of the world are "grounded" in sensory and physical experience and the neural pathways that were used when we initially experienced those concepts.
-
-https://www.apa.org/pubs/journals/releases/hea-hea0000531.pdf
-
-Perceived Physical Activity and Mortality
-
-https://www.apa.org/pubs/journals/features/hea-letter-to-editor-wiest-2011.pdf
-
-Well-being and Mortality
-
-https://www.apa.org/pubs/books/4311014
-
-Advanced Methods for Conducting Online Behavioral Research
+#### Literature review
 
 
+
+##### Flow in Games 
+
+Csikszentmihalyi’s research and personal observations identified eight major components of Flow: 
+
+• A challenging activity requiring skill; 
+
+• A merging of action and awareness; 
+
+• Clear goals; 
+
+• Direct, immediate feedback; 
+
+• Concentration on the task at hand; 
+
+• A sense of control; 
+
+• A loss of self-consciousness; and 
+
+• An altered sense of time. 
 
 Physical health; physical and mental distance when sitting together; emoji and symbol usage in online chat
 

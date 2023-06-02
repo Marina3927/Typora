@@ -111,5 +111,19 @@ $\frac{dP}{dt}=kP(1-\frac{P}{M})$
 
 M: carrying capacity; P: population
 
+**0525**
 
+A Euclidean space is a finite-dimensional inner product space over the real numbers.
+
+**0529**
+
+Orthogonal matrix preserves inner product.
+
+vector space
+
+**0531**
+
+subspace
+
+Sum of vector space
 
