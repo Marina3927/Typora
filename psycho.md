@@ -715,17 +715,14 @@ Personal definitions
 many self-report measures use 5 to 9 response options
 
 **sensitivity** 
-
 the range of data a researcher can gather from a particular instrument
 
 ### Reliability and Validity of Measures 
 
 **reliability** 
-
 the stability or consistency of a measure.
 
 **validity** 
-
 the degree to which a tool measures what it claims to measure
 
 ### Recruiting Research  Participants 
@@ -735,57 +732,44 @@ the degree to which a tool measures what it claims to measure
 #### Sampling the Population
 
 **population** 
-
 the entire group of interest in a research study from which the researcher draws the sample
 
 **sample** 
-
 a subset of the population from which the researcher collects data. 
 
 **sampling plan** 
-
 the explicit strategy used for recruiting participants from the population. 
 
 **representative sample**
-
 a sample with specific features that characterize the population of interest. 
 
 ##### Types of Sampling -- probability/non-
 
 **probability sampling**
-
 a sampling approach in which everyone in a given population has an equal chance of selection for participation. 
 
 **simple random sampling** 
-
 a probability sampling method in which a subset of individuals are randomly selected from population members. 
 
 **stratified random sampling** 
-
 includes dividing the population into strata or subpopulations and using simple random sampling to select participants from each strata in proportion to the population at large. 
 
 **cluster random sampling** 
-
 dividing the total population into groups (or clusters), then using simple random sampling to select which clusters participate; all observations in a selected cluster are included in the sample. 
 
 **non-probability sampling** 
-
 everyone in the population does not have an equal chance of being sampled, therefore creating a bias in the sample
 
 **convenience sampling** 
-
 nonrandom selections of participants who are readily available to the researcher to serve as the sample. 
 
 **quota sampling**
-
 freely choosing any participant as long as they help meet predetermined targets for the sample’s characteristics. 
 
 **purposive sampling** 
-
 the researcher chooses the sample based on who they think would be appropriate or qualified for the study; used when a limited number of people have expertise in the area under investigation. 
 
 **snowball sampling** 
-
 existing study participants recruit future participants from among their acquaintances. 
 
 #### Sampling Issues
@@ -797,8 +781,6 @@ maximize the generalizability of your conclusions
 a potential systematic difference between those who refused to participate in a study and those who participated. 
 
 ##### The Volunteer Subject Problem 
-
-
 
 ### L5. 0525
 
@@ -852,7 +834,163 @@ How do **politics and funding sources impact** the scientific integrity of resea
 
 ## CHAPTER 7 Correlational Research: Is Going Greek a Great Idea
 
+**correlational study** 
+a research approach that focuses on how variables relate to one another
 
+#### Weighing Our Options: Picking the Best Design 
+
+Qualitative: **open-ended question** 
+a question that participants answer using their own words
+
+**closed-ended question** 
+a question that participants answer using a predetermined set of response options.
+
+**scale** 
+a measurement strategy for assigning a number to represent the degree to which a person possesses or exhibits the target variable. (two different scales for our study: one that measures self-concept clarity and another that measures interest in joining a Greek organization.)
+
+**summated ratings scale** 
+a scale where a participant evaluates a series of statements using a set of predetermined response options, and the responses are summed to represent the overall measurement for the variable; commonly referred to as a Likert scale. 
+
+**Likert scale** 
+another name for a summated ratings scale. 
+
+**survey** ( **reliability** & **validity** )
+a quantitative research strategy for systematically collecting information from a group of individuals; the information is then generalized to a larger group of interest
+
+##### Writing High-Quality Items 
+
+Precise; no double-barrel item; no jargon
+
+**response set** 
+a response bias where a participant tends to give the same answer to most, if not all of the items on a scale, regardless of what questions are asked. 
+
+**acquiescent 默认 response set** 
+a response bias where a participant tends to agree with most, if not all, of the items on a scale, regardless of what questions are asked.
+
+mark the items using opposite direction wording with an *asterisk*.
+
+**forced choice scale** 
+a scale where a person must choose between only two response alternatives for each item. 
+
+**error of central tendency** 
+a response bias where a participant tends to avoid using the extreme response alternatives on a scale. 
+
+##### Calculating the Participant’s Score
+
+**reverse-coding** 
+a scoring strategy where more negative response alternatives are assigned higher numerical values and more positive response alternatives are assigned lower numerical values; used to minimize the potential for an acquiescent response set. 
+
+#### Weighing Our Options: Is Our Scale Reliable and Valid? 
+
+##### Reliability
+
+**internal consistency reliability** 
+the degree to which the individual items in a scale are interrelated
+
+**test-retest reliability** 
+the temporal stability of a measure. 
+
+**correlation** 
+a measure of the linear relationship between two variables; can range from −1.0 to +1.0; typically represented by the symbol *r.* 
+
+**alternative-form reliability** 
+a form of reliability that evaluates how well a measure correlates with a similar, but different, measure of the same variable. 
+
+**equivalent-form reliability** 
+another name for alternative-form reliability
+
+##### Validity
+
+**face validity** (-> demand characteristics / social desirability bias)
+the degree to which a scale appears, on the surface, to measure the intended variable. 
+
+**content validity** 
+the degree to which the items on a scale reflect the range of material that should be included in a measurement of the target variable
+
+**construct validity** 
+the degree to which the scale actually measures the desired construct; established by evaluating the convergent and discriminant validity of the measurement. 
+
+- **convergent validity** 
+  the degree to which scores on a measurement correspond to measures of other theoretically related variables; used to help establish the construct validity of a measurement. 
+
+- **discriminant validity** 
+  the degree to which a measurement does not correspond to measures of unrelated variables; used to help establish the construct validity of a measurement. 
+
+**criterion validity** 
+the degree to which a measurement relates to a particular outcome or behavior; established by evaluating the concurrent and predictive validity of the measurement. 
+
+**concurrent validity** 
+the degree to which a measurement corresponds with an existing outcome or behavior; used to establish the criterion validity of a measurement. 
+
+**predictive validity** 
+the degree to which a measurement corresponds with a particular outcome or behavior that occurs in the future; used to establish the criterion validity of a measurement. 
+
+##### Pilot Testing
+
+#### Our Hypothesis
+
+**nondirectional hypothesis** 
+a hypothesis that does not make a specific prediction as to how two variables are related. 
+
+**directional hypothesis** 
+a hypothesis that makes a specific prediction as to the exact nature of the relationship between two variables. 
+
+### Design in Action
+
+#### Weighing Our Options: Finalizing Our Survey
+
+
+
+### L8. 0606
+
+Self-concept clarity: how clear and certain a person is about who he or she is
+interest in joining a fraternity or sorority:  We will conceptually define “interest” as a positive attitude toward joining a Greek organization.
+the best design to address the research question: correlational study
+
+self-report measures--survey
+
+### L9. 0613
+
+Cronbachh's alpha
+
+normalize the covariance
+
+Rule of Thumb: weak < 0.3; moderate; strong > 0.7
+
+SPSS
+
+### L10. 0619
+
+### L11. 0620
+
+胡塞尔 所识obj--意识--能识surbj
+
+质性研究qualitative与定量quantitative研究之比较
+
+### L14. 0627
+
+Order effect: fatigue effect, carryover effect (顺序), sensitation effect
+
+## CHAPTER 10
+
+#### Define Key Terms
+
+reality TV show: unscripted programs about people being themselves in a living or working environment rather than in a TV studio set 
+
+schadenfreude: define similarity as whether the person experiencing the misfortune is a member of an in-group or out-group to the person watching
+
+#### Weighing Our Options: Picking a Design for Our Research Questions
+
+**behavioral diary** 
+a self-report data collection strategy where individuals record their behaviors and associated feelings as they occur. 
+
+**pretest-posttest design** 
+a within-subjects design where participants are measured before and after exposure to a treatment or intervention (**baseline measurement**)
+
+**repeated-measures design** 
+a within-subjects design where participants are exposed to each level of the independent variable and are measured on the dependent variable after each level; unlike the pretest-posttest design, there is no baseline measurement. 
+
+##### Within-Subjects Designs 
 
 # Well-being Theory
 
@@ -875,8 +1013,6 @@ hedonic享乐主义的, endiomoinc
 Flow, wellbeing, video game
 
 #### Literature review
-
-
 
 ##### Flow in Games 
 

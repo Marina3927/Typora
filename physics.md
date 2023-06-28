@@ -4,6 +4,8 @@ physics150: submit your homework to B01 or B02 mailbox in Longbin Building
 
 ## Master Physics
 
+Endpoint includes the beginning point.
+
 When you need to be explicit, type * (Shift + 8) to insert the multiplication operator. You will see a multiplication dot (⋅) appear in the answer box. Do not use the symbol ××. For example, for the expression ma, typing m ⋅ a would be correct, but mxa would be incorrect
 
 - **To edit an existing vector**, click to select either the vector, its start point, or its end point. Drag the selected vector or point to a new location.
@@ -65,8 +67,6 @@ Precision VS. Accuracy
 *P34*
 
 Order-of-magniturde estimated = Back-of-the-Envelop
-
-*P35*
 
 #### Vector quantiity = magnitude + direction
 
@@ -352,13 +352,20 @@ $\frac{\omega_{dr}}{\omega_0}=1$ means: driving frequency=natural angular freque
 
 Mechanical resonance
 
+### L9. 0606
 
+Pseudo force
+
+Coriolis force: https://www.youtube.com/watch?v=kCbMKSZZO9w
+motion in centrifugal; ballistic trajectory in the atmosphere; circulation of winds and hurricanes; the weight of an object moving on earth
+
+$\vec{A}\times(\vec{B}\times\vec{C})=\vec{B}\cdot(\vec{A}\cdot\vec{C})-\vec{C}\cdot(\vec{A}\cdot\vec{B})$
 
 ### c7 Potential Energy and Energy Conservation
 
 gravitational potential energy $U_{grav}=mgv$
 
-total mechanical energy of the system $E=\Delta K +\Delta U_{grav}$
+total mechanical energy of the system $\Delta E=\Delta K +\Delta U_{grav}$
 
 elastic potential energy $U_{el}=\frac12 kx^2\\\Delta U_{el21}= W_{12}$
 
@@ -374,9 +381,27 @@ energy diagram --
 
 stable equilibrium (minimum in a potnetial-energy curve)
 
+### c9 Rotation of Rigid Body
+
+average angular velocity  $\omega_{av-z}=\frac{\Delta\theta}{\Delta t}$ angular displacement
+
+Instantaneous angular velocity
+
+1 hertz = 1 rev/s = $2 \pi$ rad/s = 60 rpm (revolution per minute)
+
+average angular acceleration. $\alpha_{av-z}= =\frac{\Delta\omega}{\Delta t}$
+
+
+
+
+
 ### c14
 
 ##### simple harmonic motion SHM
+
+[ ω = 2πf ](https://lambdageeks.com/angular-frequency-and-frequency/)(https://lambdageeks.com/angular-frequency-and-frequency/). the constant factor 2π relates the angular frequency to frequency
+
+A single spring of spring constant k is equivalent to two springs of spring constant 2k in series. [So, cutting a spring in half will double the spring constant](https://physics.stackexchange.com/questions/687744/does-the-spring-constant-change-if-a-spring-is-cut)[1](https://physics.stackexchange.com/questions/687744/does-the-spring-constant-change-if-a-spring-is-cut)(https://www.wikihow.com/Find-Spring-Constant)
 
 ##### angular simple harmonic motion
 
@@ -386,7 +411,11 @@ stable equilibrium (minimum in a potnetial-energy curve)
 
 ##### damped oscillations
 
+damping constant $b$, in $F=-bv$ ; Damping becomes stronger = b becomes larger = resonance frequency smaller
+
 ##### forced oscillations and resonance
+
+driving force $F_{dr}=F_0cos(\omega_{dr}t)$
 
 ## Physics Lab
 
@@ -524,4 +553,4 @@ Damping causes the amplitude of an oscillation to decrease over time. The freque
 
 7. Sketch the curves *θ*st vs. *ω* for steady-state driven oscillations with two different damping coefficients *β*1 *< β*2. Label the curves with *β*1 and *β*2 accordingly.
 
-8. Sketch the curves *ϕ* vs. *ω* for steady-state driven oscillations with two difffferent damping coeffiffifficients *β*1 *< β*2. Label the curves with *β*1 and *β*2 accordingly.
+8. Sketch the curves *ϕ* vs. *ω* for steady-state driven oscillations with two difffferent damping coeffiffifficients *β*1 *< β*2. Label the curves with *β*1 and *β*2 accordingly.c

@@ -127,3 +127,42 @@ subspace
 
 Sum of vector space
 
+**0605**
+
+Orthogonal -> orthonormal
+(a set containing a single vector is orthogonal;
+a set containing a single unit vector is orthonormal)
+
+T is an orthogonal set of nonzero vectors in a vector space, then T is a linear independent set.
+
+If A isn't $\in$ C(Q), then after the application of the projection matrix, $A\in C(Q)$.
+
+**0615** mid rc
+
+sign+minor=cofactor
+
+#### **matrix inversion lemma**
+
+[It states that for any invertible n-by-n matrices A and B, the inverse of their product AB is equal to the product of their inverses in the reverse order ](https://mathworld.wolfram.com/MatrixInverse.html)[1](https://mathworld.wolfram.com/MatrixInverse.html)[2](https://textbooks.math.gatech.edu/ila/1553/matrix-inverses.html).
+
+order of matrix: $m\times n$
+
+#### Matrix Representing Linear Map
+
+#### column space of matrix
+
+### orthogonal projection matrix
+
+ $ℝ^2$ has infinitely many subspaces
+{$(𝑡,𝑎𝑡)∈ℝ^2∣𝑡∈ℝ$}, one for each value of $𝑎∈ℝ$.
+
+Only calculate the determinant of square matrix.
+
+
+
+**0628**
+
+Tangential of plane
+
+https://pressbooks.library.torontomu.ca/multivariatecalculus/chapter/unit-2-tangent-plane/
+

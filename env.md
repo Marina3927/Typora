@@ -1,3 +1,65 @@
+**0621**
+
+```zsh
+git config merge.tool vimdiff
+git config merge.conflictstyle diff3
+git config mergetool.prompt false
+
+# when merge conflicts, run
+git mergetool
+
+:diffg RE  " get from REMOTE
+:diffg BA  " get from BASE
+:diffg LO  " get from LOCAL
+:wqa
+git commit
+
+#
+git clean 
+```
+
+
+
+**0620**
+
+```zsh
+You can use the >> operator. This will append data from a command to the end of a text file.
+To test this try running:
+
+echo "Hi this is a test" >> textfile.txt
+
+Do this a couple of times and then run:
+
+cat textfile.txt
+You'll see your text has been appended several times to the textfile.txt file.
+```
+
+
+
+**0616**
+
+回溯算法back tracking 八皇后算法 dfs
+
+**0615**
+
+```zsh
+git pull --rebase
+# discard local changes
+git reset --hard HEAD
+```
+
+**0614**
+
+Go to Symbol `workbench.action.gotoSymbol` Ctrl+Shift+O (Cmd+Shift+O on a Mac).
+
+You can reassign it to Ctrl+R.
+
+You can also group them by typing colon `@:`.
+
+**0607**
+
+A benchmark app is used for [testing computer performance](https://www.softwaretestinghelp.com/computer-stress-test-software/). 
+
 **0529**
 
 ```zsh
@@ -34,7 +96,6 @@ git branch -d old_branch
 
 #If you want to delete the remote branch as well, use
 git push --delete origin old_branch
-
 ```
 
 

@@ -13,7 +13,55 @@
 	elm-format src/ --yes
 # clean:
 	rm -rf build/
+elmformat *
 ```
+
+**0612**
+
+Front-end web development: JavaScript (along with [HTML](https://www.codecademy.com/resources/blog/what-is-html/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=what_is_javascript_used_for_blog) and [CSS](https://www.codecademy.com/learn/learn-css?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=what_is_javascript_used_for_blog)) 
+
+Back-end web (server-side) development: [Node.js](https://www.codecademy.com/learn/learn-node-js?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=what_is_javascript_used_for_blog) (a JavaScript framework)
+
+Mobile, VR, AI
+
+
+
+**0605**
+
+```elm
+polyFun x y fct = fct x y
+-- <function> : a -> b -> ( a -> b -> c ) -> c
+-- ( a -> b -> c ) is fct
+-- polymorphism
+
+```
+
+**0604**
+
+```elm
+removeTail : List a -> List a
+removeTail body =
+    body
+        |> List.reverse
+        |> List.tail
+        |> Maybe.withDefault []
+        |> List.reverse
+```
+
+lose of intent
+Mislead, boolean is inconsistent
+complexity with branching logic (lose single responsibility)
+pull us away from friendly domain abstract
+API should be written to make it easier for the caller
+String: primitive obsession (wild match)
+? represent a finit domain
+only handle valid constructor
+delegate responsibility to...; become a collaborator
+Boolean Blindness: lose info -> backtrack, retrieve the dog (Dict.get) ; may not know the time
+option let us see; option type
+Maybe
+Result: minimize the result of boolean branching
+Union Types: enforce constraints thanks to type check
 
 **0530**
 
