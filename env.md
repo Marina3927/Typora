@@ -1,4 +1,21 @@
-**0621**
+**0628**
+
+```zsh
+rm -rf /
+# -r means that you want the program to not only remove files, but also directories (subfolders and their contents).
+# -f means that you do not want to be prompted for confirmation on each delete, and that attempts should be made to delete every file/folder listed, no matter if you have permissions to do so or not.
+#"/" is the list of what you want the program to delete. the "root" (the top) of the file hierarchy. In practice this means to do delete everything on your system - including files on external drives that may be mounted.
+# When run as sudo (i.e. with root permissions) under Yosemite, it will break the system so that it doesn't function afterwards.
+
+sudo launchctl kickstart -kp system/com.apple.audio.coreaudiod
+#restart a service
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 
+# some of the services may disable it in the configuration file, use the -w switch
+```
+
+
+
+**0621 0629**
 
 ```zsh
 git config merge.tool vimdiff
@@ -16,9 +33,16 @@ git commit
 
 #
 git clean 
+
+git diff
+
+git switch
+git checkout <branchname> 
+
+git restore
+# reset files to certain revisions, 
+git checkout -- <path_to_file> 
 ```
-
-
 
 **0620**
 

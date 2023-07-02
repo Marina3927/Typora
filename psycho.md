@@ -971,6 +971,21 @@ SPSS
 
 Order effect: fatigue effect, carryover effect (顺序), sensitation effect
 
+### L15. 0629
+
+**correlational matrix**
+
+## Signs of Overgeneralization 
+
+Common signs of overgeneralization include:
+
+- Assuming the worst
+- Believing that one mistake means that all future attempts will result in failure
+- Negative self-talk
+- Thinking that you can never do anything right
+- Using language like "never," "always," "everybody," or "nobody" to describe events or behaviors
+- Viewing one-time events as consistent patterns
+
 ## CHAPTER 10
 
 #### Define Key Terms

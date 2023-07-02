@@ -16,6 +16,14 @@
 elmformat *
 ```
 
+**0628** 
+
+OBS Installation
+
+**Streaming** is where you directly broadcast a video to a source such as youtube.
+
+**Recording** is when you record a video as it's happening and post it after you edit.
+
 **0612**
 
 Front-end web development: JavaScript (along with [HTML](https://www.codecademy.com/resources/blog/what-is-html/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=what_is_javascript_used_for_blog) and [CSS](https://www.codecademy.com/learn/learn-css?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=what_is_javascript_used_for_blog)) 

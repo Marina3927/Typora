@@ -1,4 +1,8 @@
-**0612**
+**0628**
+
+https://www.kaggle.com/datasets/sheenabatra/facebook-data/code
+
+https://developers.facebook.com/docs/graph-api/overview
 
 
 
